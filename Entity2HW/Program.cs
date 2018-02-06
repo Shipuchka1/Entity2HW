@@ -47,6 +47,8 @@ namespace Entity2HW
             }
         }
 
+
+
         public static void Task4()
         {
             var query = db.TablesManufacturer.FirstOrDefault(w => w.intManufacturerID == 2);
